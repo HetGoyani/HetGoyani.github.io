@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Het Goyani</h1>
+        <p>Welcome to my portfolio website!</p>
+    
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="Pic.jpg" alt="My_Pic">
+            <p>Hello! My interest in coding stemmed from my enjoyment of creating useful products and my belief that it's similar to solving problems. I've gained a lot of knowledge about coding and computers, and I'm constantly eager to learn more. Apart from coding, I enjoy experimenting with new technologies, collaborating with other developers, and lending a hand with open-source projects. I have a strong interest in creating sophisticated answers to challenging issues and am a dedicated software developer. I like to work with other developers, explore new technologies, and contribute to open-source projects when I'm not developing.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Computer System Technician - Software Support</p>
+            <p>Mohawk College - Hamilton</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Computer Skills
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>Java, JavaScript</li>
+                    <li>.Net, C#, SQL</li>
+                </ul>
+            </p>
+            <p>Other Skills
+                <ul>
+                    <li>Communication Skill</li>
+                    <li>TeamWork</li>
+                    <li>Co-operative Skill</li>
+                </ul>
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>1.Title: Quizzy - Online Quiz Platform[Pretend Project]</h3>
+            <p>Quizzy is a fun online quiz platform that measures your knowledge on a range of subjects. Users of Quizzy may test their knowledge on a variety of topics and against the time by taking a variety of quizzes. Quizzy is an easy-to-use design that lets users sign up, log in, and choose from a variety of quiz categories. Every quiz has a timer to add to the excitement, and users may get immediate feedback on how well they performed, including their score and the number of right answers. Regardless of your level of trivia expertise or want to learn something new, Quizzy provides customers with an entertaining and instructive experience.</p>
+            <h3>2.Title: Petopia - Virtual Pet Simulation Game[Pretend Project]</h3> 
+            <p>Greetings from your virtual pet paradise, Petopia! In the endearing simulation game Petopia, players may adopt and take care of their own virtual animals. Petopia provides its consumers with an array of gorgeous creatures to pick from, ranging from energetic pups to snuggly kittens. In order to keep their pets happy and healthy, people may engage with them through feeding, playing, and grooming on Petopia. With its lively visuals and captivating animations, Petopia offers customers of all ages a fascinating experience. Come join the fun at Petopia whether you love animals or are just seeking for some online company!</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>My resume can be found <a href="Het Goyani Resume.docx" download="Het's_Resume.docx">here</a>.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at hetgoyani22@gmail.com.</p>
+            <p>Feel free to drop me a message!</p>
+            <form id="contactForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <br>
+                <button type="submit" onclick="submitForm()">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Het Goyani's Portfolio, 2024</p>
+    </footer>
+</body>
+</html>
